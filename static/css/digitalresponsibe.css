@@ -1,0 +1,101 @@
+/* nav responsive */
+@media (min-width: 320px) and (max-width:550px) {
+    #main #nav {
+        padding: 0;
+        /* position: fixed; */
+    }
+
+    #nav .nav-rgt {
+        display: flex;
+    }
+
+    #nav .nav-lft {
+        gap: 0.5em;
+    }
+
+    #nav a, form, button {
+        display: none;
+    }
+
+    #nav {
+        padding: 0;
+        /* width: 66.7%; */
+       
+    }
+
+    #nav #nav_logo {
+        width: 130px;
+    }
+
+    #nav i:first-child {
+        display: initial;
+    }
+    .btnmm{
+        display: none;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 768px) {
+    #main #nav {
+        padding: 0;
+    }
+
+    #nav .nav-rgt {
+        display: flex;
+    }
+
+    #nav .nav-lft {
+        gap: 0.5em;
+    }
+
+    #nav a, form, button {
+        display: none;
+    }
+
+    #nav {
+        padding: 0;
+    }
+
+    #nav #nav_logo {
+        width: 200px;
+    }
+
+    #nav i:first-child {
+        display: initial;
+    }
+    /* .btnmm{
+        display: none;
+    } */
+}    
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #main #nav {
+        padding: 0;
+    }
+
+    #nav .nav-rgt {
+        display: flex;
+    }
+
+    #nav .nav-lft {
+        gap: 0.5em;
+    }
+
+    #nav a, form, button {
+        display: none;
+    }
+
+    #nav {
+        padding: 0;
+    }
+
+    #nav #nav_logo {
+        width: 260px;
+    }
+
+    #nav i:first-child {
+        display: initial;
+    }
+  
+}
+/* nav responsive */

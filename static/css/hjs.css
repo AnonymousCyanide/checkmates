@@ -1,0 +1,128 @@
+.hjs-01{
+    height: auto;
+    width: 100%;
+    background-color: #E9F2FE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  /* position: relative; */
+  /* z-index: -99; */
+}
+
+.elips-rcorner{
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    /* background-color: red; */
+    top: 8%;
+    right: 0; 
+}
+.elips-rcorner img{
+    height: 100%;
+    width: 100%;
+}
+#lk02s {
+    display: none;
+}
+
+.main-lefting{
+    height: 715px;
+    width: 39%;
+    /* background-color: rgb(68, 136, 196); */
+    /* padding: 8rem; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.main-lefting h1{
+    color: #000;
+    line-height: 6.6rem;
+    font-weight: 900;
+    font-size: 5rem;
+}
+.main-lefting h4{
+font-size: 3.2rem;
+color: #4E17E2;
+}
+.main-lefting p{
+width: 80%;
+color: #000;
+font-weight: 500;
+line-height: 2.5rem;
+}
+.main-righting{
+    height: 715px;
+    width: 45%;
+    /* background-color: rgb(162, 204, 11); */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* position: relative; */
+   /* z-index: -1; */
+}
+.main-righting img{
+    height: 80%;
+    width: 100%;
+    /* margin-left: -9rem; */
+    margin-top: 2rem;
+}
+.hjs-012{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(84, 16, 201);
+}
+
+.slider-controles {
+    position: absolute;
+    width: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 80.8%;
+    transform: translate(0, -50%);
+    /* z-index: -1; */
+    left: 22%;
+}
+.slider-controles-previous, .slider-controles-next {
+    cursor: pointer;
+    background-color: #28236E;
+    padding: 0.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 22%;
+    border-radius: 4px;
+    color: #E9F2FE;
+    font-size: 17px;
+}
+.hjs-012{
+    height: auto;
+    width: 100%;
+    background-color: #E9F2FE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: -99;
+}
+.hjs-013{
+    height: auto;
+    width: 100%;
+    background-color: #E9F2FE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: -99; 
+}
+.hjs-014{
+    height: auto;
+    width: 100%;
+    background-color: #E9F2FE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: -99; 
+}

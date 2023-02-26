@@ -1,0 +1,213 @@
+{% load static %}
+<!-- navbar  -->
+  
+  <!-- <div class="pop-page"> -->
+    <div id="mainsg">
+        <div id="header">
+  
+              <img src = "{% static 'images/logo.png' %}">
+                    </div>
+        <br>
+        <div id="content">
+            <div class="pic">
+  
+              <img src = "{% static 'images/Group 1.png' %}">
+                        </div>
+            <h3>Having You In Our Company Is A Great Honor!
+            Indeed, All Of Us Here Are Very Excited To Work With You. </h3>
+           
+            <h2>What Service You Are Looking?</h2>
+            <p>We Could Definitely Help You To Grow in</p>
+           
+            <div class="btns00">
+                
+                <div class="btnp00">Branding</div>
+                <div class="btnp00">Content Writing</div>
+                <div class="btnp00">Guest Posting</div>
+                <div class="btnp00">Google Ads</div>
+                <div class="btnp00">Local SEO</div>
+                <div class="btnp00">UI/UX</div>
+            </div>
+            <div class="btns00" id="btn1">
+                <div class="btnp00">Website Development</div>
+                <div class="btnp00">Website Designing</div>
+                <div class="btnp00">Search Engine Optimization</div>
+                <div class="btnp00">Social Media Marketing</div>
+               </div>
+            </div>
+            <div id="input" >
+                <input type="text" placeholder="Enter Email ">
+                <div class="btnp00" id="btn22">Submit</div>
+            </div>
+            <div id="foot">
+                <a id="skip" style="cursor: pointer;">Skip
+                  <br>
+                  <h5>Go To Home To Explore More</h5>
+                </a>
+                <!-- <a id="skip" style="cursor: pointer;"><h5>Go To Home To Explore More</h5></a> -->
+            </div>
+  
+        </div>
+    <!-- </div> -->
+    
+    <!-- </div> -->
+           <!-- Navbar-container -->
+           <div id="overlay">
+              <!-- <section class="navigation"> -->
+                  <div class="nav-container">
+                      <div class="brand">
+                          <!-- hh -->
+                          <!-- <img src="logo@2x.png" alt=""> -->
+                      </div>
+                      <nav>
+                          <!-- <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div> -->
+                      <ul class="nav-list">
+                        <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                        <li>
+                          <a href="{% url 'home_page' %}">Home</a>
+                        </li>
+                        <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                        <li>
+                          <a id="about" href="{% url 'team_page' %}">About Us</a>
+                          <ul id="abc" class="nav-dropdown">
+                              
+                              <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                              <li>
+                                <a href="{% url 'about_page' %}l">about Us</a>
+                              </li>
+                              <!-- <li>
+                                <a href="#!">Known Us</a>
+                              </li> -->
+                              <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                              <li>
+                                <a href="{% url 'team_page' %}">Our Team</a>
+                              </li>
+                            
+                            </ul>
+                        </li>
+                        <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                        <li>
+                          <a id="servicess" href="#!">Services</a>
+                          <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                          <ul id="srb" class="nav-dropdown">
+                            <li>
+                              <a href="{% url 'home_page' %}">Services</a>
+                            </li>
+                          
+                            
+                            <li>
+                              <a href="#!" id="content01">Content Writing</a>
+                            </li>
+                            <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                            <li>
+                              <a href="#!">Guest Posting</a>
+                            </li>
+                            <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                            <li>
+                              <a href="#!">Google Ads</a>
+                            </li>
+                            <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                            <li>
+                              <a href="{% url 'seo_page' %}">SEO</a>
+                            </li>
+                            <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                            <li>
+                              <a href="./ui.html">UI & UX</a>
+                            </li>
+                            <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                            
+                            
+                            <li>
+                              <a href="#!">Website Designing</a>
+                            </li>
+                            <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                          
+                            <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                            <li>
+                              <a href="./digital.html">Social Media Marketing</a>
+                            </li>
+                            <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                          </ul>
+                        </li>
+                       
+                        <li>
+                          <a href="{% url 'portfolio_page' %}">Portfolio</a>
+                         
+                        </li>
+                        <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                        <li>
+                          <a href="./mainblog.html">Blog</a>
+                        </li>
+                        <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                        <li>
+                          <a href="{% url 'contact_page' %}">Contact Us</a>
+                        </li>
+                        <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                      </ul>
+                    </nav>
+                    
+                  </div>
+                <!-- </section> -->
+              <i id="close" class="ri-close-line"></i>
+  
+              <div class="n-follow-icon">
+                <h6>Follow Us</h6>
+                <!-- <br> -->
+                <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                <a href="#">  <i class="ri-instagram-line"></i></a>
+              <a href="#"> <i class="ri-twitter-fill"></i></a>
+              <a href="#"> <i class="ri-linkedin-fill"></i></a>
+              <a href="#"> <i class="ri-pinterest-fill"></i></a>
+              <a href="#">  <i class="ri-youtube-fill"></i></a>
+              <a href="#"> <i class="ri-spotify-fill"></i></a>
+              <h6>@2022 Checkmatecreatives</h6>
+              </div>
+          </div>
+          <div id="nav">
+              <div class="nav-lft">
+                  <i onclick="abc()" class="ri-menu-line"></i>
+               <img id="nav_logo" src="./Images/logo@2x.png" alt="">
+              </div>
+              <div class="nav-rgt">
+                  <i class="ri-search-2-line"></i>
+                  <i class="ri-calendar-check-fill"></i>
+              </div>
+              <a href="./index.html">Home</a>
+              <!-- <a href="#">About Us</a> -->
+              <div class="dropdown">
+               <a class="dropbtn" href="./about.html">About Us</a>
+                <div  class="dropdown-content">
+                  <!-- <a href="#!" style="color: #fff;">Known Us</a> -->
+                  <a href="./team.html" style="color: #fff;">Our Team</a>
+                  <!-- <a href="#">Link 3</a> -->
+                </div>
+              </div>
+              <!-- <a href="#">Services</a> -->
+           
+              <div style=" font-weight: 100; border-bottom: none;" class="dropdown">
+                <a class="dropbtn" href="./service.html">Services</a>
+                 <div style="height: 270px; font-size: 9.5px; font-weight: 400;" class="dropdown-content">
+                   
+                   <a href="#!" style="color: #fff;" id="content01">Content Writing</a>
+                   <a href="#!" style="color: #fff;">Guest Posting</a>
+                   <a href="#!" style="color: #fff;">Google Ads</a>
+                   <a href="./seo.html" style="color: #fff;">SEO</a>
+                   <a href="./ui.html" style="color: #fff;">UI & UX</a>
+                   
+                   <a href="#!" style="color: #fff;">Website Designing</a>
+                   
+                   <a href="./digital.html" style="color: #fff;">Social Media Marketing</a>
+                   
+                 </div>
+               </div>
+              <a href="{% url 'portfolio_page' %}">Portfolio</a>
+              <a href="{% url 'home_page' %}">Blog</a>
+              <a href="{% url 'contact_page' %}">Contact Us</a>
+              <form action="action_page">
+                  <input type="search" id="search" name="search" placeholder="Search"><i style="  right: 38rem;  top: 1%;" class="ri-search-line"></i>
+              </form>
+              <a href="./appointment.html">
+              <button style="  padding: 1.3rem 3rem; font-size: 1.3rem;" class="btnmm" >Book  A Free consultancy</button>
+          </a>
+          </div>
+    <!-- end navbar  -->

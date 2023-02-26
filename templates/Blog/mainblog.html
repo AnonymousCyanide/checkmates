@@ -1,0 +1,1679 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/page-1.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Blog | Checkmatecreatives</title>
+    <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="./Images/fevicons.png">
+
+    <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+</head>
+<body>
+  <!-- navbar  -->
+   
+         <!-- Navbar-container -->
+         <div id="overlay">
+          <!-- <section class="navigation"> -->
+              <div class="nav-container">
+                  <div class="brand">
+                      <!-- hh -->
+                     </div>
+                     <!-- <img src="logo@2x.png" alt=""> -->
+                 <nav>
+                     <!-- <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div> -->
+                 <ul class="nav-list">
+                   <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                   <li>
+                     <a href="./index.html">Home</a>
+                   </li>
+                   <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                   <li>
+                     <a id="about" href="#!">About</a>
+                     <ul id="abc" class="nav-dropdown">
+                         
+                         <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                         <li>
+                           <a href="./about.html">About Us</a>
+                         </li>
+                        
+                         <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                         <li>
+                           <a href="./team.html">Our Team</a>
+                         </li>
+                       
+                       </ul>
+                   </li>
+                   <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                   <li>
+                     <a id="servicess" href="#!">Services</a>
+                     <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                     <ul id="srb" class="nav-dropdown">
+                       <li>
+                         <a href="./service.html">Services</a>
+                       </li>
+                       <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                       <li>
+                         <a href="#!" id="content01">Content Writing</a>
+                       </li>
+                       <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                       <li>
+                         <a href="#!">Guest Posting</a>
+                       </li>
+                       <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                       <li>
+                         <a href="#!">Google Ads</a>
+                       </li>
+                       <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                       <li>
+                         <a href="./seo.html">SEO</a>
+                       </li>
+                       <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                       <li>
+                         <a href="./ui.html">UI & UX</a>
+                       </li>
+                       <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                      
+                       <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                       <li>
+                         <a href="#!">Website Designing</a>
+                       </li>
+                       <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                      
+                       <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                       <li>
+                         <a href="./digital.html">Social Media Marketing</a>
+                       </li>
+                       <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                     </ul>
+                   </li>
+                  
+                   <li>
+                     <a href="./portfolio.html">Portfolio</a>
+                    
+                   </li>
+                   <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                   <li>
+                     <a href="./appointment.html">Blog</a>
+                   </li>
+                   <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                   <li>
+                     <a href="./contact.html">Contact Us</a>
+                   </li>
+                   <div style="height: 1px; width: 345px; background-color: black;" class="single-line"></div>
+                 </ul>
+               </nav>
+               
+             </div>
+           <!-- </section> -->
+         <i id="close" class="ri-close-line"></i>
+
+         <div class="n-follow-icon">
+           <h6>Follow Us</h6>
+           <!-- <br> -->
+           <a href="#"><i class="ri-facebook-box-fill"></i></a>
+           <a href="#">  <i class="ri-instagram-line"></i></a>
+         <a href="#"> <i class="ri-twitter-fill"></i></a>
+         <a href="#"> <i class="ri-linkedin-fill"></i></a>
+         <a href="#"> <i class="ri-pinterest-fill"></i></a>
+         <a href="#">  <i class="ri-youtube-fill"></i></a>
+         <a href="#"> <i class="ri-spotify-fill"></i></a>
+         <h6>@2022 Checkmatecreatives</h6>
+         </div>
+     </div>
+     <div id="nav">
+         <div class="nav-lft">
+             <i onclick="abc()" class="ri-menu-line"></i>
+            <img id="nav_logo" src="./Images/logo@2x.png" alt="">
+           
+         </div>
+         <div class="nav-rgt">
+             <i class="ri-search-2-line"></i>
+             <i class="ri-calendar-check-fill"></i>
+         </div>
+         <a href="./index.html">Home</a>
+         <!-- <a href="#">About Us</a> -->
+         <div class="dropdown">
+          <a class="dropbtn" href="./about.html">About Us</a>
+           <div  class="dropdown-content">
+             
+             <a href="./team.html" style="color: #fff;">Our Team</a>
+             <!-- <a href="#">Link 3</a> -->
+           </div>
+         </div>
+         <!-- <a href="#">Services</a> -->
+      
+         <div style=" font-weight: 100; border-bottom: none;" class="dropdown">
+           <a class="dropbtn" href="./service.html">Services</a>
+            <div style="height: 270px; font-size: 9.5px; font-weight: 400;" class="dropdown-content">
+           
+              <a href="#" style="color: #fff;" id="content01">Content Writing</a>
+              <a href="#" style="color: #fff;">Guest Posting</a>
+              <a href="#" style="color: #fff;">Google Ads</a>
+              <a href="./seo.html" style="color: #fff;">SEO</a>
+              <a href="./ui.html" style="color: #fff;">UI & UX</a>
+              
+              <a href="#" style="color: #fff;">Website Designing</a>
+              
+              <a href="./digital.html" style="color: #fff;">Social Media Marketing</a>
+              
+            </div>
+          </div>
+         <a href="./portfolio.html">Portfolio</a>
+         <a href="./mainblog.html">Blog</a>
+         <a href="./contact.html">Contact Us</a>
+         <form action="action_page">
+             <input type="search" id="search" name="search" placeholder="Search"><i class="ri-search-line"></i>
+         </form>
+         <a href="./appointment.html">
+         <button class="btnmm" >Book  A Free consultancy</button>
+     </a>
+     </div>
+<!-- end navbar  -->
+
+
+    <div id="main">
+        
+        
+        <div id="homepage">
+            <div id="rectangle_heading">
+                <h1>" BLOGS "</h1>
+                <img id="oneimg"src="oneimg.png" alt="">
+                <img id="dot1" src="Ellipse 4.png" alt="">
+                <img id="dot2" src="Ellipse 4.png" alt="">
+                <img id="dot3" src="Ellipse 4.png" alt="">
+                <img id="dot4" src="Ellipse 4.png" alt="">
+                <img id="dot5" src="Ellipse 4.png" alt="">
+                <img id="ellipse753" src="./Images//Ellipse 753.png" alt="">
+                <img id="one" src="Mask Group 8.png" alt="">
+                <img id="ellipse73" src="./Images//Ellipse 753.png" alt="">
+            </div>
+            <div id="homepage_txt">
+                <h1>Read What Our Team <br> Has Published On The Internet</h1>
+            <p>The best ideas can change who we are.  We’re an open platform where over 100 million  readers come to find insightful and dynamic thinking.</p>
+            <hr>
+            </div>
+        
+        <div id="option">
+            <div id="recen">
+                <a href="#">Most Recent</a>
+            </div>
+            <div id="recent">
+                <a href="./page5.html">Popular</a>
+            </div>
+            <div id="recent">
+                <a href="./page3.html">Featured</a>
+            </div>
+        </div>
+        <div id="sec-1">
+           {% include 'Blog/blog_list_view.html' %}
+            </div>
+        </div>
+        </div>
+        <div id="second_page">
+            <div id="second_heading">
+                <h4>Articles Picked Just For You</h4>
+                <hr>
+            </div>
+            <div class="articles">  
+                <div class="article-1">
+                    <div class="article-1-lft">
+                        <img src="./Images/Mask Group 17.png" alt="">
+                    </div>
+                    <div class="article-1-rgt">
+                        <div class="advertisingg">
+                            <img src="Path 78114.png" alt="">
+                            <h4>Advertising</h4>
+                        </div>
+                        <h1>The Ultimate Guide To <br> Google Business Profile</h1>
+                        <p>As a local business, achieving high visibility on Google has never been more vital for long-term growth.</p>
+                        <div class="flex-div">
+                            <div class="lft">
+                                <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                                <h4>27 Feb, 2022</h4>
+                            </div>
+                            <div class="cntr">|</div>
+                            <div class="rgt">
+                                <img src="./Images/Icon awesome-clock.svg" alt="">
+                                <h4>10 Minutes Read</h4>
+                            </div>
+                        </div>
+                        <div class="lftt">
+                            <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                            <h4>Read By 10K User</h4>
+                        </div>
+                        <div class="lftt">
+                            <h4>Read Article</h4>
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                    </div>
+                    <i class="ri-bookmark-line"></i>
+                </div>
+                <div class="article-2">
+                    <div class="article-2-lft">
+                        <img class="main-img" src="./Images/Digital.png" alt="">
+                        <div class="head-div">
+                            <img src="./Images/Path 78114.svg" alt="">
+                            <h4>Marketing</h4>
+                        </div>
+                        <h1>Best Social Media Marketing <br> Tools For E-Commerce Industry</h1>
+                        <div class="flex-div">
+                            <div class="lft">
+                                <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                                <h4>27 Feb, 2022</h4>
+                            </div>
+                            <div class="cntr">|</div>
+                            <div class="rgt">
+                                <img src="./Images/Icon awesome-clock.svg" alt="">
+                                <h4>10 Minutes Read</h4>
+                            </div>
+                        </div>
+                        <div class="lftt">
+                            <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                            <h4>Read By 10K User</h4>
+                        </div>
+                        <div id="blue" class="lftt">
+                            <h4>Read Article</h4>
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                        <i class="ri-bookmark-line"></i>
+                    </div>
+                    <div class="article-2-rgt">
+                        <img class="main-img" src="./Images/Mask Group 22.png" alt="">
+                        <div class="head-div">
+                            <img id="pink-d" src="./Images/pink.png" alt="">
+                            <h4>Digital</h4>
+                        </div>
+                        <h1>How To Create A <br> Content Calender</h1>
+                        <div class="flex-div">
+                            <div class="lft">
+                                <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                                <h4>27 Feb, 2022</h4>
+                            </div>
+                            <div class="cntr">|</div>
+                            <div class="rgt">
+                                <img src="./Images/Icon awesome-clock.svg" alt="">
+                                <h4>10 Minutes Read</h4>
+                            </div>
+                        </div>
+                        <div class="lftt">
+                            <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                            <h4>Read By 10K User</h4>
+                        </div>
+                        <div id="blues" class="lftt">
+                            <h4>Read Article</h4>
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                        <i class="ri-bookmark-line"></i>
+                    </div>
+                </div>
+            </div>    
+<div id="pagethree">
+<div id="rectangle_two">
+   
+</div>
+<div id="advertising">
+    <img src="Path 78114.png" alt="">
+    <h4>Advertising</h4>
+</div>
+<div id="seo_content">
+    <h1>Top 5 Free SEO Analysis Tools To Rank Higher In SERP</h1>
+<p>As a local business, achieving high visibility on Google has never been more vital for long-term growth and success. In fact, 46% of all Google searches are for local information, and 4 in 5 consumers use search.....</p>
+<div id="detail">
+    <div id="date"> <i class="ri-calendar-2-line"></i> 27 Feb, 2022</div>
+    <div id="time"> <i class="ri-time-fill"></i> 10 Minutes Read</div>
+    <div id="readby"> <i class="ri-shield-user-fill"></i> Read By 10K User</div>
+</div>
+<div class="lftt">
+    <h4>Read Article</h4>
+    <i class="ri-arrow-right-s-line"></i>
+</div>
+</div>
+<div id="center_pagethree">
+    <h1>Read From Which Interest Your Field</h1>
+    <p>The best ideas can change who we are. We’re an open platform where over 100 million readers come to find insightful and dynamic thinking.</p>
+<hr>
+</div>  
+</div>
+<div id="option_bar">   
+    <div class="elems">
+        <i class="ri-file-list-2-line"></i>
+        <h4>All</h4>
+    </div>
+    <div class="elems">
+        <i class="ri-lightbulb-flash-line"></i>
+        <h4>Branding</h4>
+    </div>
+    <div class="elems">
+        <i class="ri-play-list-add-fill"></i>
+        <h4>Content <br> Writing</h4>
+    </div>
+    <div class="elems">
+        <i class="ri-git-repository-line"></i>
+        <h4>Guest <br> Posting</h4>
+    </div>
+    <div class="elems">
+        <i class="ri-advertisement-line"></i>
+        <h4>Google <br> Ads</h4>
+    </div>
+    <div class="elems">
+        <i class="ri-pie-chart-line"></i>
+        <h4>Local <br> SEO</h4>
+    </div>
+    <div class="elems">
+        <i class="ri-advertisement-line"></i>
+        <h4>User Interface & <br> User Experience</h4>
+    </div>
+    <div class="elems">
+        <i class="ri-keyboard-box-line"></i>
+        <h4>Website <br> Development</h4>
+    </div>
+    <div class="elems">
+        <i class="ri-pen-nib-fill"></i>
+        <h4>Website <br> Designing</h4>
+    </div>
+    <div class="elems">
+        <i class="ri-gallery-line"></i>
+        <h4>Search Engine <br> Optimization</h4>
+    </div>
+    <div class="elems">
+        <i class="ri-chat-1-line"></i>
+        <h4>Social Media <br> Marketing</h4>
+    </div>
+</div>
+<div id="page_four">
+    <div id="four_heading">
+    <div id="network">
+        <h1 id="boldd">A LIVING NETWORK</h1>
+        <h1>OF CURIOUS MINDS.</h1>
+        <div class="line-div"></div>
+        <p>We’re creating a new model for digital publishing. One that supports nuance, complexity, and vital storytelling without giving in to the incentives of advertising.</p>
+    </div>
+    <div id="filter">
+    <div id="f-top">
+        <div id="top-lft">
+            <h4>Filter By</h4>
+            <i class="ri-filter-2-line"></i>
+        </div>
+        <i id="down-arrow" class="ri-arrow-down-s-line"></i>
+    </div>
+    <div id="f-btm">
+        <div class="f-elems">
+            <a href="./page3.html"><h4>All</h4></a>
+        </div>
+        <div class="f-elems">
+            <a href="#"><h4>Date</h4></a>
+        </div>
+        <div class="f-elems">
+            <a href="#"><h4>Time</h4></a>
+        </div>
+        <div class="f-elems">
+            <a href="./page2.html"><h4>Recent</h4></a>
+        </div>
+        <div class="f-elems">
+            <a href="./page5.html"><h4>Popular</h4></a>
+        </div>
+        <div class="f-elems">
+            <a href="#"><h4>Features</h4></a>
+        </div>
+    </div>
+    </div>
+    </div>
+    <h1>Most Recent</h1>
+    <div id="card-parent">
+        <div class="cards-child">
+            <div class="c-lft">
+                <img src="./Images/Mask Group 17.png" alt="">
+            </div>
+            <div class="c-rgt">
+                <div class="extra-div">
+                    <img src="./Images/red.png" alt="">
+                    <h3>Advertising</h3>
+                </div>
+                <h1>The Ultimate Guide To
+                    <br>
+                    Google Business Profile
+                </h1>
+                <p>As a local business achieving high visibility on Google has never been more vital for long-term growth.</p>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>10 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <h4>Read Article</h4>
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+            </div>
+            <i class="ri-bookmark-line"></i>
+        </div>
+        <div class="cards-child">
+            <div class="c-lft">
+                <img src="./Images/Mask Group 17.png" alt="">
+            </div>
+            <div class="c-rgt">
+                <div class="extra-div">
+                    <img src="./Images/red.png" alt="">
+                    <h3>Advertising</h3>
+                </div>
+                <h1>The Ultimate Guide To
+                    <br>
+                    Google Business Profile
+                </h1>
+                <p>As a local business achieving high visibility on Google has never been more vital for long-term growth.</p>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>10 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <h4>Read Article</h4>
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+            </div>
+            <i class="ri-bookmark-line"></i>
+        </div>
+        <div class="cards-child">
+            <div class="c-lft">
+                <img src="./Images/Mask Group 17.png" alt="">
+            </div>
+            <div class="c-rgt">
+                <div class="extra-div">
+                    <img src="./Images/red.png" alt="">
+                    <h3>Advertising</h3>
+                </div>
+                <h1>The Ultimate Guide To
+                    <br>
+                    Google Business Profile
+                </h1>
+                <p>As a local business achieving high visibility on Google has never been more vital for long-term growth.</p>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>10 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <h4>Read Article</h4>
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+            </div>
+            <i class="ri-bookmark-line"></i>
+        </div>
+        <div class="cards-child">
+            <div class="c-lft">
+                <img src="./Images/Mask Group 17.png" alt="">
+            </div>
+            <div class="c-rgt">
+                <div class="extra-div">
+                    <img src="./Images/red.png" alt="">
+                    <h3>Advertising</h3>
+                </div>
+                <h1>The Ultimate Guide To
+                    <br>
+                    Google Business Profile
+                </h1>
+                <p>As a local business achieving high visibility on Google has never been more vital for long-term growth.</p>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>10 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <h4>Read Article</h4>
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+            </div>
+            <i class="ri-bookmark-line"></i>
+        </div>
+        <div class="cards-child">
+            <div class="c-lft">
+                <img src="./Images/Mask Group 17.png" alt="">
+            </div>
+            <div class="c-rgt">
+                <div class="extra-div">
+                    <img src="./Images/red.png" alt="">
+                    <h3>Advertising</h3>
+                </div>
+                <h1>The Ultimate Guide To
+                    <br>
+                    Google Business Profile
+                </h1>
+                <p>As a local business achieving high visibility on Google has never been more vital for long-term growth.</p>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>10 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <h4>Read Article</h4>
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+            </div>
+            <i class="ri-bookmark-line"></i>
+        </div>
+    </div>
+    <div class="see-all">
+        <a href="#">See All</a>
+    </div>
+</div>
+<div id="pop-fea">
+    <div class="pop-lft">
+        <h1>Popular</h1>
+        <div class="flexx">
+            <img src="./Images//Mask Group 19.png" alt="">
+            <div class="rgtt">
+                <div class="head-div">
+                    <img src="./Images/path 7777.svg" alt="">
+                    <h4>Digital</h4 >
+                </div>
+                <h2>Top 5 Free SEO <br> Analysis Tools To <br> Rank Higher In SERP</h2>
+                <p>As a local business, achieving high visibility on Google has never been.....</p>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>10 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <h4>Read Article</h4>
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+            </div>
+        </div>
+        <a id="pop-fea-see" href="#">See All</a>
+        <i class="ri-bookmark-line"></i>
+    </div>
+    <div id="pop-rgt">
+      <h1>Featured</h1>  
+      <div class="topp">
+        <i class="ri-bookmark-line"></i>
+        <img src="./Images/Mask Group 20.png" alt="">
+        <div class="rgt-2">
+            <div class="head-div">
+                <img src="./Images/Path 78114.svg" alt="">
+                <h4>Marketing</h4>
+            </div>
+            <h1>Top Google Ads Blogs <br> You Should Follow</h1>
+            <div class="lft-2">
+                <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                <h4>27 Feb, 2022</h4>
+            </div>
+            <div class="lft-2">
+                <img src="./Images/Icon awesome-clock.svg" alt="">
+                <h4>10 Minutes Read</h4>
+            </div>
+            <div class="lft-2">
+                <h4>Read Article</h4>
+                <i class="ri-arrow-right-s-line"></i>
+            </div>
+        </div>
+      </div>
+      <div class="topp">
+        <i class="ri-bookmark-line"></i>
+        <img src="./Images/Mask Group 21.png" alt="">
+        <div class="rgt-2">
+            <div class="head-div">
+                <img src="./Images/pink.png" alt="">
+                <h4>Design</h4>
+            </div>
+            <h1>Top Google Ads Blogs <br> You Should Follow</h1>
+            <div class="lft-2">
+                <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                <h4>27 Feb, 2022</h4>
+            </div>
+            <div class="lft-2">
+                <img src="./Images/Icon awesome-clock.svg" alt="">
+                <h4>10 Minutes Read</h4>
+            </div>
+            <div class="lft-2">
+                <h4>Read Article</h4>
+                <i class="ri-arrow-right-s-line"></i>
+            </div>
+        </div>
+      </div>
+      <div class="see-all">
+        <a href="#">See All</a>
+    </div>
+    </div>
+</div>
+<div class="ads-div">
+    <h1>Advertising</h1>
+    <div class="secc">
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 9.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img src="./Images/Path 78114.svg" alt="">
+                    <h4>Marketing</h4>
+                </div>
+                <h2>Best Social Media Marketing
+                    <br>
+                    Tools For E-Commerce Industry
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>10 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="./blog10.html">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 12.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img class="digi" src="./Images/path 7777.svg" alt="">
+                    <h4>Digital</h4>
+                </div>
+                <h2>How To Create A
+                    <br>
+                    Content Calender
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>15 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="./blog11.html">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 11.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img src="./Images/Path 78114.svg" alt="">
+                    <h4>Marketing</h4>
+                </div>
+                <h2>Top Google Ads Blogs
+                    <br>
+                    You Should Follow
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>20 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="#">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 10.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img class="digi" src="./Images/path 7777.svg" alt="">
+                    <h4>Digital</h4>
+                </div>
+                <h2>Best Social Media Marketing
+                    <br>
+                    Tools For E-Commerce Industry
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>10 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="./blog10.html">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 9.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img src="./Images/Path 78114.svg" alt="">
+                    <h4>Marketing</h4>
+                </div>
+                <h2>Best Social Media Marketing
+                    <br>
+                    Tools For E-Commerce Industry
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>10 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="./blog10.html">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 12.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img class="digi" src="./Images/path 7777.svg" alt="">
+                    <h4>Digital</h4>
+                </div>
+                <h2>How To Create A
+                    <br>
+                    Content Calender
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>15 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="./blog11.html">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 11.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img src="./Images/Path 78114.svg" alt="">
+                    <h4>Marketing</h4>
+                </div>
+                <h2>Top Google Ads Blogs
+                    <br>
+                    You Should Follow
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>20 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="#">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 10.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img class="digi" src="./Images/path 7777.svg" alt="">
+                    <h4>Digital</h4>
+                </div>
+                <h2>Best Social Media Marketing
+                    <br>
+                    Tools For E-Commerce Industry
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>10 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="./blog10.html">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#">See All</a>
+</div>
+<div class="ads-div">
+    <h1>SEO</h1>
+    <div class="secc">
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 9.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img src="./Images/Path 78114.svg" alt="">
+                    <h4>Marketing</h4>
+                </div>
+                <h2>Best Social Media Marketing
+                    <br>
+                    Tools For E-Commerce Industry
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>10 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="./blog10.html">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 12.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img class="digi" src="./Images/path 7777.svg" alt="">
+                    <h4>Digital</h4>
+                </div>
+                <h2>How To Create A
+                    <br>
+                    Content Calender
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>15 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="./blog11.html">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 11.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img src="./Images/Path 78114.svg" alt="">
+                    <h4>Marketing</h4>
+                </div>
+                <h2>Top Google Ads Blogs
+                    <br>
+                    You Should Follow
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>20 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="#">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 10.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img class="digi" src="./Images/path 7777.svg" alt="">
+                    <h4>Digital</h4>
+                </div>
+                <h2>Best Social Media Marketing
+                    <br>
+                    Tools For E-Commerce Industry
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>10 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="./blog10.html">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 9.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img src="./Images/Path 78114.svg" alt="">
+                    <h4>Marketing</h4>
+                </div>
+                <h2>Best Social Media Marketing
+                    <br>
+                    Tools For E-Commerce Industry
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>10 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="./blog10.html">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 12.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img class="digi" src="./Images/path 7777.svg" alt="">
+                    <h4>Digital</h4>
+                </div>
+                <h2>How To Create A
+                    <br>
+                    Content Calender
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>15 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="./blog11.html">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 11.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img src="./Images/Path 78114.svg" alt="">
+                    <h4>Marketing</h4>
+                </div>
+                <h2>Top Google Ads Blogs
+                    <br>
+                    You Should Follow
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>20 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="#">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 10.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img class="digi" src="./Images/path 7777.svg" alt="">
+                    <h4>Digital</h4>
+                </div>
+                <h2>Best Social Media Marketing
+                    <br>
+                    Tools For E-Commerce Industry
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>10 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="./blog10.html">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#">See All</a>
+</div>
+<div id="bordernone" class="ads-div">
+    <h1>Designing</h1>
+    <div class="secc">
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 9.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img src="./Images/Path 78114.svg" alt="">
+                    <h4>Marketing</h4>
+                </div>
+                <h2>Best Social Media Marketing
+                    <br>
+                    Tools For E-Commerce Industry
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>10 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="./blog10.html">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 12.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img class="digi" src="./Images/path 7777.svg" alt="">
+                    <h4>Digital</h4>
+                </div>
+                <h2>How To Create A
+                    <br>
+                    Content Calender
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>15 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="./blog11.html">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 11.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img src="./Images/Path 78114.svg" alt="">
+                    <h4>Marketing</h4>
+                </div>
+                <h2>Top Google Ads Blogs
+                    <br>
+                    You Should Follow
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>20 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="#">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 10.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img class="digi" src="./Images/path 7777.svg" alt="">
+                    <h4>Digital</h4>
+                </div>
+                <h2>Best Social Media Marketing
+                    <br>
+                    Tools For E-Commerce Industry
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>10 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="./blog10.html">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 9.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img src="./Images/Path 78114.svg" alt="">
+                    <h4>Marketing</h4>
+                </div>
+                <h2>Best Social Media Marketing
+                    <br>
+                    Tools For E-Commerce Industry
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>10 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="./blog10.html">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 12.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img class="digi" src="./Images/path 7777.svg" alt="">
+                    <h4>Digital</h4>
+                </div>
+                <h2>How To Create A
+                    <br>
+                    Content Calender
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>15 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="./blog11.html">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 11.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img src="./Images/Path 78114.svg" alt="">
+                    <h4>Marketing</h4>
+                </div>
+                <h2>Top Google Ads Blogs
+                    <br>
+                    You Should Follow
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>20 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="#">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="top">
+                <img src="./Images/Mask Group 10.png" alt="">
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="btm">
+                <div class="head-div">
+                    <img class="digi" src="./Images/path 7777.svg" alt="">
+                    <h4>Digital</h4>
+                </div>
+                <h2>Best Social Media Marketing
+                    <br>
+                    Tools For E-Commerce Industry
+                </h2>
+                <div class="flex-div">
+                    <div class="lft">
+                        <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                        <h4>27 Feb, 2022</h4>
+                    </div>
+                    <div class="cntr">|</div>
+                    <div class="rgt">
+                        <img src="./Images/Icon awesome-clock.svg" alt="">
+                        <h4>10 Minutes Read</h4>
+                    </div>
+                </div>
+                <div class="lftt">
+                    <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                    <h4>Read By 10K User</h4>
+                </div>
+                <div class="lftt">
+                    <a href="./blog10.html">Read Article</a>
+                    <img src="./Images/Icon material-keyboard-arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#">See All</a>
+</div>
+<div id="rectangle_five">
+    <div id="rec-lft">
+        <h1>Creating The Space <br> For Your Thinking To Take Off.</h1>
+        <p>Want To Publish Blog With Us</p>
+        <button>Contact Us</button>
+    </div>
+    <img src="./Images/ii.png" alt="">
+</div>
+<div id="page_five">
+<div id="five_heading">
+    <h1>Choose Us</h1>
+    <hr>
+</div>
+<div id="five_text">
+    <h1>We Make Your <br> Business Bright</h1>
+    <p>we listen, we think, we create, We start by understanding of your business and its aspirations; we apply our knowledge and expertise with a conceptulization to visualize different branding phenomenon and implement it with the great output of marketing collateral, website, Online Campaigns to boost your products or services as a brand in real world. In simple terms we'll become your very own team of creative geniuses, on-line strategists and friendly geeks. Call for a jargon free chat or if you're too busy use this form.</p>
+</div>
+<div id="post">
+    <div id="booka">
+        <div id="booking">
+            <i class="ri-file-text-line"></i>
+            <h3>Book A Free Appointment</h3>
+          </div>
+    </div>
+<div id="contactt">
+    <div id="callus">
+        <i class="ri-phone-fill"></i><h3>Call +91 8200493681</h3>
+      </div>
+</div>
+
+<div id="post_box">
+    <img id="post_b" src="Mask Group 24.png" alt="">
+    <img id="dot" src="dot.png" alt="">
+</div>
+
+</div>
+</div>
+<div id="footer">
+                <div class="watermarks"></div>
+                <div class="watermarks"></div>
+                <div class="watermarks"></div>
+                <div class="watermarks"></div>
+                <div class="watermarks"></div>
+                <div class="watermarks"></div>
+                <div class="watermarks"></div>
+                <div class="watermarks"></div>
+                <div class="watermarks"></div>
+                <div id="footer_logo">
+                    <img src="Layer_x0020_1.png" alt="">
+                </div>
+                <div id="link">
+                    <div class="footer_link">
+                        <h5>Quick Links</h5>
+                        <a href="">Home</a>
+                        <a href="">About Us</a>
+                        <a href="">Services</a>
+                        <a href="">Portfolio</a>
+                        <a href="">Blog</a>
+                        <a href="">Contact Us</a>
+                        <a href="">Book An Appointment</a>
+                        <h6>© 2022 Checkmate</h6>
+                    </div>
+                    <div class="footer_link">
+                        <h5>Services</h5>
+                        <a href="">Branding</a>
+                        <a href=""> Content Marketing</a>
+                        <a href="">Graphic Designing</a>
+                        <a href="">Local SEO </a>
+                        <a href=""> PPC </a> 
+                    </div>
+                    <div id="ftr-seo" class="footer_link">
+                        
+                        <a href="">SEO</a>
+                        <a href="">Social Media Marketing</a>
+                        <a href=""> UI/UX</a>
+                        <a href=""> Website Designing</a>
+                        <a href="">Website Development</a>
+                        
+                    </div>
+                    <div class="footer_link">
+                        <h5 id="get">Get in touch</h5>
+                        <div class="flex-div">
+                            <i class="ri-map-pin-3-fill"></i>
+                            <p>904 Shyamvrund Apartments Opposite Dhananjay Tower Shyamal Cross Road Ahmedabad- 380015, Gujrat, India.</p>
+                        </div>
+                        <div class="flex-div">
+                            <i class="ri-phone-fill"></i>
+                            <div class="flex-rgt">
+                                <a href="#">+91 9537895111</a>
+                                <a href="#">+91 8200493681</a>
+                            </div>
+                        </div>
+                        <div class="flex-div">
+                            <i class="ri-mail-line"></i>
+                            <a href="#">info@checkmatecreatives.com</a>
+                        </div>
+                        <div id="social">
+                            <i class="ri-facebook-box-fill"></i>
+                            <i class="ri-instagram-fill"></i>
+                            <i class="ri-twitter-fill"></i>
+                            <i class="ri-linkedin-box-fill"></i>
+                            <i class="ri-pinterest-fill"></i>
+                            <i class="ri-youtube-fill"></i>
+                            <i class="ri-spotify-fill"></i>
+                        </div>
+                    </div>
+                </div>
+</div>
+        </div>
+
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
+    <script src="{% static 'js/page-1.js' %}"></script>
+    <script src="{% static 'js/nav2.js' %}"></script>
+    <script src="{% static 'js/navbar.js' %}"></script>
+</body>
+</html>

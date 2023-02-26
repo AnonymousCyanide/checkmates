@@ -1,0 +1,1076 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+/* #main {
+    width: 100%;
+} */
+
+#main .section-1 {
+    width: 100%;
+    padding: 3em 8em;
+}
+
+.head-div {
+    position: relative;
+}
+
+.head-div h4 {
+    font-size: 14px;
+    top: 8px;
+    left: 16px;
+}
+
+.section-1 h1 {
+    margin-top: 0.5em;
+    text-transform: uppercase;
+}
+
+.section-1 .flex-div {
+    display: flex;
+    gap: 3em;
+    align-items: center;
+}
+
+.flex-div .lft {
+    gap: 1em;
+}
+
+.flex-div .rgt {
+    gap: 1em;
+}
+
+.section-1 .lftt {
+    margin-top: 1em;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lftt h4 {
+    color: black;
+}
+
+.lftt .lfttt {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    width: 130px;
+}
+
+.lftt .rgttt {
+    display: flex;
+    gap: 1em;
+    color: #28236E;
+    font-size: 18px;
+}
+
+.lftt img {
+    width: 20px;
+}
+
+#sec-1 .lftt img {
+    width: 10px;
+}
+
+.section-1 #img-div {
+    width: 100%;
+    height: 40vh;
+    background-color: #28236E;
+    margin-top: 2em;
+}
+
+#img-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-1 p {
+    width: 50%;
+    margin-top: 2em;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.img-div-2 {
+    width: 100%;
+    position: relative;
+    height: 70vh;
+    background-color: #28236E;
+}
+
+.img-div-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-div-2 #img-childrens {
+    display: flex;
+    gap: 2em;
+    position: absolute;
+    left: 50%;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+}
+
+#img-childrens .elem-imgs {
+    width: 130px;
+    height: 130px;
+    background-color: black;
+    border: 5px solid #fff;
+    border-radius: 8px;
+}
+
+.elem-imgs img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texts-div {
+    padding: 5em 10em;
+}
+
+.texts-div p {
+    width: 50%;
+    margin-top: 1em;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.texts-div h1 {
+    margin-top: 1.5em;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.texts-div:nth-child(2) {
+    padding: 5em 10em;
+}
+
+.texts-div h3 {
+    margin-top: 3em;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.texts-div .social-links {
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.social-links h5 {
+    text-transform: uppercase;
+}
+
+.social-links .scl-rgt {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.social-links i {
+    font-size: 24px;
+    color: #28236E;
+}
+
+.texts-div .key-div {
+    width: 70%;
+    margin-top: 5em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2em 3em;
+}
+
+.key-flex {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.key-flex .key-lft {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.key-lft i {
+    font-size: 24px;
+}
+
+.key-lft img {
+    color: #28236E;
+}
+
+.key-lft h4 {
+    font-weight: 700;
+}
+
+.key-flex .key-rgt {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.key-rgt a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600
+}
+
+.key-rgt i {
+    color: blue;
+}
+
+.key-div ul {
+    margin-left: 1.5em;
+}
+
+li {
+    margin-top: 2em;
+}::marker {
+    color: #4E17E2;
+    font-size: 22px;
+}
+
+.texts-div #s1 {
+    gap: 2em;
+}
+
+.texts-div #s2 {
+    margin-top: 1em;
+    gap: 2em;
+}
+
+.social-links .elems {
+    background-color:#F4F5F7;
+    padding: 0.8em 1em;
+}
+
+.elems h4 {
+    color: black;
+}
+
+#main .section-3 {
+    border-bottom: 1px solid black;
+    padding-bottom: 4em;
+}
+
+#main .section-4 {
+    width: 100%;
+    margin-top: 2rem;
+    padding:  0 10em;
+}
+.response-heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    height: 40px;
+}
+.response-heading .fa-comment-dots {
+    color: #28236E;
+    font-size: 24px;
+}
+.response-heading .response-heading-text {
+    font-size: 18px;
+    color: #000;
+}
+.section-4 .input-div {
+    width: 100%;
+    border: 1px solid #B0B0B0;
+    border-radius: 6px;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.input-div .user-name {
+    border-radius: 20px;
+    background: #00BBFF;
+    padding: .4rem;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 1rem;
+}
+.input-div>input {
+    border: none;
+    outline: none;
+    background: none;
+    color: grey;
+    font-size: 15px;
+    font-weight: 400;
+    width: 85%;
+    margin: 0 .5rem;
+}
+.input-div>button {
+    background: none;
+    outline: none;
+    border: none;
+    color: #4E17E2;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins",sans-serif;
+}
+.section-4 .reviews-div {
+    width: 100%;
+    background: #F4F5F7;
+    padding: 1rem;
+    display: grid;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+}
+.reviews-div .review-heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.review-heading .review-icon {
+    margin-left: 1rem;
+}
+.review-icon>.user-name {
+    background: #4E17E2;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    padding: 0.3rem;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+.review-heading .review-user {
+    width: 90%;
+    text-align: left;
+    margin: 0 1rem;
+}
+.review-user>h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.review-user> h5 {
+    color: #726A6A;
+    font-weight: 400;
+}
+.review-heading .delete-div {
+    color: #8B8B8B;
+    font-size: 22px;
+}
+.reviews-div .review-text {
+    width: 70%;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.review-text>p {
+    width: 100%;
+    color: #000;
+    font-weight: 400;
+}
+
+.reviews-div .reply-div {
+    background: #fff;
+    padding:1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+.user-name-nj {
+    background: #03A71E;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    padding: 0.3rem;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+.user-name-ap {
+    background: #4E17E2;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    padding: 0.3rem;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+#main .section-5 {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+    padding: 0 10em;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.section-5 .sec-5-lft {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.sec-5-lft i {
+    font-size: 35px;
+    color: #4E17E2;
+}
+
+.sec-5-lft .progress {
+    width: 600px;
+    margin-right: 100px;
+    height: 4px;
+    background-color: #dadada;
+    border-radius: 10px;
+}
+
+.progress .prg-bar {
+    width: 100px;
+    height: 4px;
+    background-color: #4E17E2;
+    border-radius: 10px;
+}
+
+.sec-5-lft button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.section-5 .sec-5-rgt {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.sec-5-rgt a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.sec-5-rgt i {
+    color: #4E17E2;
+}
+
+.head-div h4 {
+    top: 3px;
+    left: 10px;
+}
+
+.section-1 .head-div img {
+    width: 80px;
+}
+
+
+@media (min-width: 350px) and (max-width: 550px) {
+    #main .section-1 {
+        padding: 0.5em 1em;
+    }
+
+    .section-1 h1 {
+        font-size: 20px;
+    }
+
+    .section-1 .head-div img {
+        width: 60px;
+    }
+
+    .head-div h4 {
+        font-size: 10px;
+    }
+
+    .section-1 .flex-div {
+        gap: 2em;
+    }
+
+    .lftt img {
+        width: 10px;
+    }
+
+    .flex-div .lft {
+        gap: 0.5em;
+    }
+
+    .flex-div .rgt {
+        gap: 0.5em;
+    }
+
+    .lftt .lfttt {
+        gap: 0.5em;
+    }
+
+    .lftt .rgttt {
+        font-size: 12px;
+    }
+
+    .section-1 p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .section-1 p br {
+        display: none;
+    }
+
+    #main .section-2 {
+        padding: 0.5em 1em;
+    }
+
+    .img-div-2 {
+        height: 40vh;
+    }
+
+    #img-childrens .elem-imgs {
+        width: 80px;
+        height: 80px;
+    }
+
+    .texts-div:nth-child(2) {
+        padding: 2em 0;
+    }
+
+    .texts-div p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .texts-div p br {
+        display: none;
+    }
+
+    .texts-div h1 {
+        font-size: 20px;
+    }
+
+    #main .section-3 {
+        padding: 0.5em 1em;
+    }
+
+    .texts-div h3 {
+        font-size: 18px;
+    }
+
+    .texts-div h3 br {
+        display: none;
+    }
+
+    .texts-div .key-div {
+        width: 100%;
+        padding: 0.5em;
+        margin-top: 2em;
+    }
+
+    .key-lft i {
+        font-size: 14px;
+    }
+
+    .key-lft h4 {
+        font-size: 14px;
+    }
+
+    .key-rgt a {
+        font-size: 10px;
+    }
+
+    .key-rgt i {
+        font-size: 10px;
+    }
+
+    .key-div li {
+        font-size: 14px;
+    } 
+
+    .social-links i {
+        font-size: 16px;
+    }
+
+    .social-links .scl-rgt {
+        gap: 0.5em;
+    }
+
+    .texts-div .social-links {
+        white-space: nowrap;
+        overflow: auto;
+    }
+
+    #main .section-4 {
+        padding: 0em 1em;
+    }
+
+    .reviews-div .review-text {
+        width: 95%;
+    }
+
+    .review-text>p {
+        font-size: 14px
+    }
+
+    .article-2 .head-div {
+        margin-top: 0;
+    }
+
+    .article-2 .head-div h4 {
+        font-size: 8px;
+    }
+
+    #main .section-5 {
+        padding: 0 1em;
+        gap: 0.5em;
+    }
+
+    .section-5 .sec-5-lft {
+        gap: 0.5em;
+    }
+
+    .sec-5-lft i {
+        font-size: 16px;
+    }
+
+    .sec-5-lft .progress {
+        width: 150px;
+        margin-right: 10px;
+    }
+
+    .progress .prg-bar {
+        width: 50px;
+    }
+
+    .sec-5-rgt a {
+        font-size: 8px;
+    }
+
+    #sec-1 .lftt img {
+        width: 6px;
+    }
+}
+
+
+@media (min-width: 551px) and (max-width: 768px) {
+    #main .section-1 {
+        padding: 0.5em 1em;
+    }
+
+    .section-1 h1 {
+        font-size: 24px;
+    }
+
+    .section-1 .head-div img {
+        width: 80px;
+    }
+
+    .head-div h4 {
+        font-size: 14px;
+    }
+
+    .section-1 .flex-div {
+        gap: 2em;
+    }
+
+    .lftt img {
+        width: 14px;
+    }
+
+    .flex-div img {
+        width: 14px;
+    }
+
+    .flex-div h4 {
+        font-size: 10px;
+    }
+
+    .lftt h4 {
+        font-size: 10px;
+    }
+
+    .flex-div .lft {
+        gap: 0.5em;
+    }
+
+    .flex-div .rgt {
+        gap: 0.5em;
+    }
+
+    .lftt .lfttt {
+        gap: 0.5em;
+    }
+
+    .lftt .rgttt {
+        font-size: 12px;
+    }
+
+    .section-1 p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .section-1 p br {
+        display: none;
+    }
+
+    #main .section-2 {
+        padding: 0.5em 1em;
+    }
+
+    .img-div-2 {
+        height: 40vh;
+    }
+
+    #img-childrens .elem-imgs {
+        width: 110px;
+        height: 110px;
+    }
+
+    .texts-div:nth-child(2) {
+        padding: 4em 0;
+    }
+
+    .article-2 .main-img {
+        width: 260px;
+    }
+
+    .article-1>i {
+        right: 5px;
+    }
+
+    .texts-div p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .texts-div p br {
+        display: none;
+    }
+
+    .texts-div h1 {
+        font-size: 20px;
+    }
+
+    #main .section-3 {
+        padding: 0.5em 1em;
+    }
+
+    .texts-div h3 {
+        font-size: 18px;
+    }
+
+    .texts-div h3 br {
+        display: none;
+    }
+
+    .texts-div .key-div {
+        width: 100%;
+        padding: 0.5em;
+        margin-top: 2em;
+    }
+
+    .key-lft i {
+        font-size: 14px;
+    }
+
+    .key-lft h4 {
+        font-size: 14px;
+    }
+
+    .key-rgt a {
+        font-size: 10px;
+    }
+
+    .key-rgt i {
+        font-size: 10px;
+    }
+
+    .key-div li {
+        font-size: 14px;
+    } 
+
+    .social-links i {
+        font-size: 16px;
+    }
+
+    .social-links .scl-rgt {
+        gap: 0.5em;
+    }
+
+    .texts-div .social-links {
+        white-space: nowrap;
+        overflow: auto;
+    }
+
+    #main .section-4 {
+        padding: 0em 1em;
+    }
+
+    .reviews-div .review-text {
+        width: 95%;
+    }
+
+    .review-text>p {
+        font-size: 14px
+    }
+
+    .article-2 .head-div {
+        margin-top: 0;
+    }
+
+    .article-2 .head-div h4 {
+        font-size: 8px;
+    }
+
+    #main .section-5 {
+        padding: 0 1em;
+        gap: 0.5em;
+    }
+
+    .section-5 .sec-5-lft {
+        gap: 0.5em;
+    }
+
+    .sec-5-lft i {
+        font-size: 20px;
+    }
+
+    .sec-5-lft .progress {
+        width: 240px;
+        margin-right: 10px;
+    }
+
+    .progress .prg-bar {
+        width: 100px;
+    }
+
+    .sec-5-rgt a {
+        font-size: 8px;
+    }
+
+    #sec-1 .lftt img {
+        width: 6px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #main .section-1 {
+        padding: 0.5em 1em;
+    }
+
+    .section-1 h1 {
+        font-size: 26px;
+    }
+
+    .section-1 .head-div img {
+        width: 80px;
+    }
+
+    .head-div h4 {
+        font-size: 14px;
+    }
+
+    .section-1 .flex-div {
+        gap: 2em;
+    }
+
+    .lftt img {
+        width: 10px;
+    }
+
+    .lftt img {
+        width: 14px;
+    }
+
+    .flex-div img {
+        width: 14px;
+    }
+
+    .flex-div h4 {
+        font-size: 10px;
+    }
+
+    .lftt h4 {
+        font-size: 10px;
+    }
+
+    .flex-div .lft {
+        gap: 0.5em;
+    }
+
+    .flex-div .rgt {
+        gap: 0.5em;
+    }
+
+    .lftt .lfttt {
+        gap: 0.5em;
+    }
+
+    .lftt .rgttt {
+        font-size: 16px;
+    }
+
+    .section-1 p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .section-1 p br {
+        display: none;
+    }
+
+    #main .section-2 {
+        padding: 0.5em 1em;
+    }
+
+    .img-div-2 {
+        height: 40vh;
+    }
+
+    #img-childrens .elem-imgs {
+        width: 120px;
+        height: 120px;
+    }
+
+    .texts-div:nth-child(2) {
+        padding: 5em 0;
+    }
+
+    .texts-div p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .texts-div p br {
+        display: none;
+    }
+
+    .texts-div h1 {
+        font-size: 20px;
+    }
+
+    #main .section-3 {
+        padding: 0.5em 1em;
+    }
+
+    .texts-div h3 {
+        font-size: 18px;
+    }
+
+    .texts-div h3 br {
+        display: none;
+    }
+
+    .texts-div .key-div {
+        width: 100%;
+        padding: 0.5em;
+        margin-top: 2em;
+    }
+
+    .key-lft i {
+        font-size: 14px;
+    }
+
+    .key-lft h4 {
+        font-size: 14px;
+    }
+
+    .key-rgt a {
+        font-size: 10px;
+    }
+
+    .key-rgt i {
+        font-size: 10px;
+    }
+
+    .key-div li {
+        font-size: 14px;
+    } 
+
+    .social-links i {
+        font-size: 16px;
+    }
+
+    .social-links .scl-rgt {
+        gap: 0.5em;
+    }
+
+    .texts-div .social-links {
+        white-space: nowrap;
+        overflow: auto;
+    }
+
+    #main .section-4 {
+        padding: 0em 1em;
+    }
+
+    .reviews-div .review-text {
+        width: 95%;
+    }
+
+    .review-text>p {
+        font-size: 14px
+    }
+
+    .article-2 .head-div {
+        margin-top: 0;
+    }
+
+    .article-2 .head-div h4 {
+        font-size: 8px;
+    }
+
+    .article-1>i {
+        right: 5px;
+    }
+
+    .article-2 .main-img {
+        width: 362px;
+    }
+
+    #main .section-5 {
+        padding: 0 1em;
+        gap: 0.5em;
+    }
+
+    .section-5 .sec-5-lft {
+        gap: 0.5em;
+    }
+
+    .sec-5-lft i {
+        font-size: 16px;
+    }
+
+    .sec-5-lft .progress {
+        width: 150px;
+        margin-right: 10px;
+    }
+
+    .progress .prg-bar {
+        width: 50px;
+    }
+
+    .sec-5-rgt a {
+        font-size: 8px;
+    }
+
+    #sec-1 .lftt img {
+        width: 6px;
+    }
+}

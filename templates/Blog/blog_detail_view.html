@@ -1,0 +1,353 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-12</title>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="{% static 'css/page-1.css' %}">
+    <link rel="stylesheet" href="{% static 'css/blog12.css' %}">
+
+    <!-- Boxicons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Remixicons cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> 
+
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+
+</head>
+<body>
+
+    <!-- Navbar-container -->
+   
+
+    <!-- Main content -->
+    <div class="main-container">
+
+        <!-- Section-1 -->
+        <div class="main-inner-container">
+            <div class="banner-title-img">
+                <img src="{% static 'images/Path 78114.svg' %}" alt="">
+            </div>
+            <div class="title-digital">
+                {{blog.category}}
+            </div>
+        </div>
+        <div class="main-inner-heading">
+            <h1 class="heading">{{blog.title}}</h1>
+        </div>
+        <div class="calendar-clock-views-icons">
+            <div class="calendar-div">
+                <img src="{% static 'images/Icon awesome-calendar-week.svg' %}" alt="">
+                <p class="calendar-date">{{blog.updated_on}}</p>
+            </div>
+            <div class="clock-div">
+                <img src="{% static 'images/Icon awesome-clock.svg' %}" alt="">
+                <p class="clock-read">{{blog.read_time}} min read</p>
+            </div>
+            <div class="views-div">
+                <div class="views-div-content">
+                    <img src="{% static 'images/Icon awesome-user-circle.svg' %}" alt="">
+                    <p class="views-count">Read By {{blog.read_by}} User</p>
+                </div>
+                <div class="bookmark-download-share-link">
+                    <i class='bx bxs-bookmark'></i>
+                    <i class='bx bxs-download'></i>
+                    <i class='bx bxs-share-alt'></i>
+                    <i class='bx bx-link'></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section-2 -->
+        <div class="header-img">
+            <img src="{{blog.title_image.url}}" alt="">
+        </div>
+        <div>
+            {{blog.content|safe}}
+        </div>
+
+    <hr class="response-section-line">
+
+    <div class="response-container">
+        <!-- Section-11 - Reviews section-->
+        <div class="response-div">
+            <div class="response-heading">
+                <i class="fa-solid fa-comment-dots"></i>
+                <h4 class="response-heading-text">Responses</h4>
+            </div>
+            <form class="input-div" action="" method="post">
+                <p class="user-name">RM</p>
+                <input type="text" name="review" placeholder="Share your thoughts">
+                <button type="Submit">Submit</button>
+            </form>
+            <div class="reviews-div">
+                <div class="review-heading">
+                    <div class="review-icon">
+                        <p class="user-name">AP</p>
+                    </div>
+                    <div class="review-user">
+                        <h4>Anand Palkar</h4>
+                        <h5>August 01, 2022</h5>
+                    </div>
+                    <div class="delete-div">
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div>
+                <div class="review-text">
+                    <p>
+                        Great educational article as always Arthur, loved reliving squash game tactics in your writing and remembering the good old days with Chandler during the blockchain wars. Hope you’re well, only wish I were in a position to act on your strategies and illustrations.
+                    </p>
+                </div>
+            </div>
+            <div class="reviews-div">
+                <div class="review-heading">
+                    <div class="review-icon">
+                        <p class="user-name-nj">NJ</p>
+                    </div>
+                    <div class="review-user">
+                        <h4 class="nj">Nikunj Joshi</h4>
+                        <h5>August 01, 2022</h5>
+                    </div>
+                </div>
+                <div class="review-text">
+                    <p>
+                        Love the analysis though, I'm in this trade big time. If it fails to meet the high target, the time horizon can be increased if you just hold spot and avoid leverage. That's the low risk higher chance of gain play IMO
+                    </p>
+                </div>
+                <div class="reply-div">
+                    <div class="review-heading">
+                        <div class="review-icon">
+                            <p class="user-name-ap">VP</p>
+                        </div>
+                        <div class="review-user">
+                            <h4>Vipul Panchal</h4>
+                            <h5>August 01, 2022</h5>
+                        </div>
+                        <div class="delete-div">
+                            <i class="fa-solid fa-trash"></i>
+                        </div>
+                    </div>
+                    <div class="review-text">
+                        <p>
+                            Mystery writer Lisa Lilly has a series that incorporates many Chicago restaurants and food joints into the action, so I'm starting the first volume, The Worried Man, for some leisure this summer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section-12 - Blogs section -->
+        <h2 class="blogs-heading">Blog Related To This</h3>
+        <hr class="heading-underline">
+        <div class="articles">
+            <div class="article-1">
+                <div class="article-1-lft">
+                    <img src="./Images/Mask Group 17.png" alt="">
+                </div>
+                <div class="article-1-rgt">
+                    <div class="advertisingg">
+                        <img src="Path 78114.png" alt="">
+                        <h4>Advertising</h4>
+                    </div>
+                    <h1>The Ultimate Guide To <br> Google Business Profile</h1>
+                    <p>As a local business, achieving high visibility on Google has never been more vital for long-term growth.</p>
+                    <div class="flex-div">
+                        <div class="lft">
+                            <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                            <h4>27 Feb, 2022</h4>
+                        </div>
+                        <div class="cntr">|</div>
+                        <div class="rgt">
+                            <img src="./Images/Icon awesome-clock.svg" alt="">
+                            <h4>10 Minutes Read</h4>
+                        </div>
+                    </div>
+                    <div class="lftt">
+                        <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                        <h4>Read By 10K User</h4>
+                    </div>
+                    <div class="lftt">
+                        <h4>Read Article</h4>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                </div>
+                <i class="ri-bookmark-line"></i>
+            </div>
+            <div class="article-2">
+                <div class="article-2-lft">
+                    <img class="main-img" src="./Images/Digital.png" alt="">
+                    <div class="head-div">
+                        <img src="./Images/Path 78114.svg" alt="">
+                        <h4>Marketing</h4>
+                    </div>
+                    <h1>Best Social Media Marketing <br> Tools For E-Commerce Industry</h1>
+                    <div class="flex-div">
+                        <div class="lft">
+                            <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                            <h4>27 Feb, 2022</h4>
+                        </div>
+                        <div class="cntr">|</div>
+                        <div class="rgt">
+                            <img src="./Images/Icon awesome-clock.svg" alt="">
+                            <h4>10 Minutes Read</h4>
+                        </div>
+                    </div>
+                    <div class="lftt">
+                        <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                        <h4>Read By 10K User</h4>
+                    </div>
+                    <div id="blue" class="lftt">
+                        <h4>Read Article</h4>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <i class="ri-bookmark-line"></i>
+                </div>
+                <div class="article-2-rgt">
+                    <img class="main-img" src="./Images/Mask Group 22.png" alt="">
+                    <div class="head-div">
+                        <img id="pink-d" src="./Images/pink.png" alt="">
+                        <h4>Digital</h4>
+                    </div>
+                    <h1>How To Create A <br> Content Calender</h1>
+                    <div class="flex-div">
+                        <div class="lft">
+                            <img src="./Images/Icon awesome-calendar-week.svg" alt="">
+                            <h4>27 Feb, 2022</h4>
+                        </div>
+                        <div class="cntr">|</div>
+                        <div class="rgt">
+                            <img src="./Images/Icon awesome-clock.svg" alt="">
+                            <h4>10 Minutes Read</h4>
+                        </div>
+                    </div>
+                    <div class="lftt">
+                        <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                        <h4>Read By 10K User</h4>
+                    </div>
+                    <div id="blues" class="lftt">
+                        <h4>Read Article</h4>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <i class="ri-bookmark-line"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section-13 - Other blogs -->
+        <h2 class="blogs-heading">Others Blogs You May Like</h3>
+        <hr class="heading-underline">
+        <div id="sec-1">
+            {% include 'Blog/blog_list_view.html' %}
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <div class="watermarks"></div>
+        <div class="watermarks"></div>
+        <div class="watermarks"></div>
+        <div class="watermarks"></div>
+        <div class="watermarks"></div>
+        <div class="watermarks"></div>
+        <div class="watermarks"></div>
+        <div class="watermarks"></div>
+        <div class="watermarks"></div>
+        <div id="footer_logo">
+            <img src="Layer_x0020_1.png" alt="">
+        </div>
+        <div id="link">
+            <div class="footer_link">
+                <h5>Quick Links</h5>
+                <a href="">Home</a>
+                <a href="">About Us</a>
+                <a href="">Services</a>
+                <a href="">Portfolio</a>
+                <a href="">Blog</a>
+                <a href="">Contact Us</a>
+                <a href="">Book An Appointment</a>
+                <h6>© 2022 Checkmate</h6>
+            </div>
+            <div class="footer_link">
+                <h5>Services</h5>
+                <a href="">Branding</a>
+                <a href=""> Content Marketing</a>
+                <a href="">Graphic Designing</a>
+                <a href="">Local SEO </a>
+                <a href=""> PPC </a> 
+            </div>
+            <div id="ftr-seo" class="footer_link">
+                
+                <a href="">SEO</a>
+                <a href="">Social Media Marketing</a>
+                <a href=""> UI/UX</a>
+                <a href=""> Website Designing</a>
+                <a href="">Website Development</a>
+                
+            </div>
+            <div class="footer_link">
+                <h5 id="get">Get in touch</h5>
+                <div class="flex-div">
+                    <i class="ri-map-pin-3-fill"></i>
+                    <p>904 Shyamvrund Apartments Opposite Dhananjay Tower Shyamal Cross Road Ahmedabad- 380015, Gujrat, India.</p>
+                </div>
+                <div class="flex-div">
+                    <i class="ri-phone-fill"></i>
+                    <div class="flex-rgt">
+                        <a href="#">+91 9537895111</a>
+                        <a href="#">+91 8200493681</a>
+                    </div>
+                </div>
+                <div class="flex-div">
+                    <i class="ri-mail-line"></i>
+                    <a href="#">info@checkmatecreatives.com</a>
+                </div>
+                <div id="social">
+                    <i class="ri-facebook-box-fill"></i>
+                    <i class="ri-instagram-fill"></i>
+                    <i class="ri-twitter-fill"></i>
+                    <i class="ri-linkedin-box-fill"></i>
+                    <i class="ri-pinterest-fill"></i>
+                    <i class="ri-youtube-fill"></i>
+                    <i class="ri-spotify-fill"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-5">
+        <!-- <button id="play">play</button>
+        <button id="pause">pause</button>
+        <button id="stop">stop</button> -->
+        <div class="sec-5-lft">
+            <i id="play" class="ri-play-circle-fill"></i>
+            <i id="pause" class="ri-pause-circle-fill"></i>
+            <i id="stop" class="ri-stop-circle-fill"></i>
+            <div class="progress">
+                <div class="prg-bar"></div>
+            </div>
+            <i class="ri-volume-up-fill"></i>
+        </div>
+        <div class="sec-5-rgt">
+            <a href="#">Download Podcast</a>
+            <i class="ri-download-fill"></i>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
+    <script src="{% static 'js/blog12.js' %}"></script>
+
+</body>
+</html>

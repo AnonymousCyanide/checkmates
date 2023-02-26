@@ -1,0 +1,36 @@
+{% load static %}
+    {% for blog in blogs %}
+    <div class="cards">
+        <div class="top">
+            <img src="{{blog.title_image.url}}" alt="">
+            <i class="ri-bookmark-line"></i>
+        </div>
+        <div class="btm">
+            <div class="head-div">
+                <img src="{% static '/images/path 7777.svg' %}" alt="svg img">
+                <h4>{{blog.category}}</h4>
+            </div>
+            <h2>{{blog.title}}
+            </h2>
+            <div class="flex-div">
+                <div class="lft">
+                    <img src="{% static 'images/Icon awesome-calendar-week.svg' %}" alt="">
+                    <h4>{{blog.created_on}}</h4>
+                </div>
+                <div class="cntr">|</div>
+                <div class="rgt">
+                    <img src="{% static 'images/Icon awesome-clock.svg' %}" alt="">
+                    <h4>{{blog.read_time}} Minutes Read</h4>
+                </div>
+            </div>
+            <div class="lftt">
+                <img src="./Images/Icon awesome-user-circle.svg" alt="">
+                <h4>Read By {{blog.read_by}} User</h4>
+            </div>
+            <div class="lftt">
+                <a href="{% url 'blog_detail_page' id=blog.id %}">Read Article</a>
+                <img src="{% static 'images/Icon material-keyboard-arrow-right.svg' %}" alt="">
+            </div>
+        </div>
+    </div>
+{% endfor %}
