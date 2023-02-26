@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-c+%#triiiicc&d+n7+0a6fm49+07$b(9el6#c0@t4p=6u5@b#&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -90,9 +90,9 @@ WSGI_APPLICATION = 'checkmatecreatives.wsgi.application'
 DATABASES = {
 'default': {
 'ENGINE': 'django.db.backends.mysql',
-'NAME': 'CHECKMATES',
-'USER': 'root',
-'PASSWORD': '',
+'NAME': 'httpsche_MyDb',
+'USER': 'httpsche_raksha',
+'PASSWORD': '1@Checkmate2023',
 'HOST': '',
 'PORT': '',
 'OPTIONS': {
